@@ -14,6 +14,9 @@ class Pixel:
         return self.red == other.red and self.green == other.green and \
             self.blue == other.blue and self.alpha == other.alpha
 
+    def __repr__(self):
+        return self.__str__()
+
 def parse_pixel(dataRGBA: int) -> Pixel:
     red: int = (dataRGBA & 0xFF000000) >> 24
     green: int = (dataRGBA & 0x00FF0000) >> 16
