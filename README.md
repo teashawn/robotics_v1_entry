@@ -5,7 +5,7 @@
 - Python>=3.8.10
 - Make
 
-To solution also relies on [NumPy](https://numpy.org/) and some test data. To
+The solution also relies on [NumPy](https://numpy.org/) and some test data. To
 get both run:
 ```bash
 make setup
